@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
-    <div id="document">
-
-    </div>
+  <div id="doc-footer">
+    <p>
+      {{ date }}
+    </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
+  name: 'doc-footer',
   data () {
     return {
-      
+      date: "10.03.2020"
     }
   }
 }
