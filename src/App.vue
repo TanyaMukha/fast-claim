@@ -17,11 +17,6 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: "Eskal Font4You";
-  src: url("~/src/assets/fonts/Eskal Font4You.ttf");
-}
-
 #app {
   font-family: "Eskal Font4You";
 }
