@@ -21,7 +21,11 @@ import DocHeader from "./DocHeader.vue";
 import DocFooter from "./DocFooter.vue";
 export default {
   name: 'document',
-  title: "Заявление",
+  data () {
+    return {
+      title: "Заявление"
+    }
+  },
   components: {
       'doc-header': DocHeader,
       'doc-footer': DocFooter
