@@ -1,11 +1,11 @@
 <template>
   <div id="doc-header">
     <p>
-      {{ manager.post }} {{ enterpriseName }}<hr>
-      {{ manager.name }}<hr>
-      {{ employee.post }}<hr>
-      {{ employee.department }}<hr>
-      {{ employee.name }}<hr>
+      {{ manager.post }} {{ enterpriseName }}<br>
+      {{ manager.name }}<br>
+      {{ employee.post }}<br>
+      {{ employee.department }}<br>
+      {{ employee.name }}<br>
     </p>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
       manager: {
         name: "Иванову И.И.",
         post: "Генеральному директору"
-      }
+      },
       employee: {
         name: "Петрова П.П.",
         post: "инженера 1 кат.",

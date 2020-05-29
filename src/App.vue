@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <div id="document">
+    <doc1>
 
-    </div>
+    </doc1>
   </div>
 </template>
 
 <script>
+import Doc1 from "./Doc1.vue";
 export default {
   name: 'app',
-  data () {
-    return {
-      
-    }
+  components: {
+    'doc1': Doc1
   }
 }
 </script>
